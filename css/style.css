@@ -1,0 +1,137 @@
+/*
+Fonts Family: font-family: 'Crimson Text', serif; 
+
+Colors:  Light Gray: #d3d5d4 , Cambridge Blue: #a2c5ac , Opal: #9db5b2 , Roman Silver: #878e99 , French Lilac: #7f6a93
+*/
+
+/* Global Styles */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    font-family: 'Crimson Text', serif;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+p {
+    margin: 0;
+    padding-top: 20px;
+}
+.right-col {
+    width: 30%;
+    float: right;
+
+}
+.left-col {
+    width: 70%;
+    float: left;
+    padding: 25px;
+}
+.container {
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+a:hover {
+    color:red;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #d3d5d4;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    display: inline-block;
+    
+}
+
+/* Introduction */
+
+#intro {
+    background-color: #a2c5ac;
+}
+img {
+    border-radius: 50%;
+}
+.button {
+    border: 1px solid #d3d5d4;
+    width: 160px;
+    text-align: center;
+    background-color: #d3d5d4;
+}
+.button a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    color: #000;
+}
+a:hover {
+    color: red;
+}
+
+/* work */
+
+#work {
+    background-color:  #9db5b2;
+}
+
+/* Education */
+
+#education {
+    color: #000;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.90;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #7f6a93;
+    color: #fff;
+    text-align: center;
+}
+#contact a {
+    text-decoration: none;
+    display: inline-block;
+    padding-right:20px;
+}
+#contact a:hover {
+    color: black;
+}
+p a i {
+    font-size: 40px;
+}
